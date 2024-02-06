@@ -8,7 +8,7 @@ Ce dépôt contient deux scripts Python principaux pour la construction d'index 
 
 main.py : Script d'indexation qui tokenise les titres des documents et crée un index non positionnel.
 
-main-lemmatized.py : Version améliorée de main.py qui applique une lemmatisation sur les titres avant de créer l'index.
+main_lemmatized.py : Version améliorée de main.py qui applique une lemmatisation sur les titres avant de créer l'index.
 
 # Dossiers
 
@@ -27,7 +27,7 @@ Opérations réalisées :
 3. Création de l'Index Non Positionnel et association de chaque token à une liste d'indices de documents.
 4. Sauvegarde de l'Index dans le dossier result.
 
-### main-lemmatized.py
+### main_lemmatized.py
 
 Ajoute une étape de lemmatisation aux opérations de main.py :
 
@@ -43,9 +43,9 @@ Pour exécuter main.py :
 
 python main.py data/crawled_urls.json
 
-Pour main-lemmatized.py :
+Pour main_lemmatized.py :
 
-python main-lemmatized.py data/crawled_urls.json
+python main_lemmatized.py data/crawled_urls.json
 
 ### Dépendances
 
