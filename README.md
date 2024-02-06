@@ -35,6 +35,14 @@ Lemmatisation des tokens pour une indexation plus précise.
 
 Création et Sauvegarde de l'Index Lemmatisé dans le dossier result.
 
+### Analyse de Similarité (similarity.py)
+
+Ce script évalue la similarité entre les index non positionnels générés par les deux méthodes principales (main.py et main-lemmatized.py). Il utilise la similarité de Jaccard pour comparer les ensembles de documents associés à chaque token dans les deux index, calculant ainsi une moyenne de similarité globale. Le script identifie également les tokens uniques à chaque index et les différences dans les listes de documents pour les tokens communs.
+
+### Test de Stemming et Lemmatisation (test_stemmer.py)
+
+Démontre l'utilisation du FrenchStemmer de NLTK pour le stemming en français et de Spacy pour la lemmatisation. Ce script fournit des exemples pratiques pour observer les différences entre stemming et lemmatisation sur des phrases en français, illustrant l'efficacité de chaque méthode dans la réduction des mots à leur forme racine ou lemme.
+
 # Utilisation
 
 Assurez-vous que Python et les dépendances nécessaires (nltk, spacy, et fr_core_news_sm) sont installés.
