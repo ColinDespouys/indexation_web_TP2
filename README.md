@@ -11,9 +11,8 @@ main-lemmatized.py : Version améliorée de main.py qui applique une lemmatisati
 
 # Dossiers
 
-data : Contient les données sources utilisées par les scripts.
-    crawled_urls.json : Fichier JSON contenant les URLs et titres des documents web crawlés.
- result : Dossier destiné à rassembler tous les résultats des manipulations effectuées par les scripts, y compris les index créés.
+data : Contient crawled_urls.json, un fichier JSON contenant les URLs et titres des documents web crawlés.
+result : Dossier destiné à rassembler tous les résultats des manipulations effectuées par les scripts, y compris les index créés.
 
 # Fonctionnalités
 
@@ -45,14 +44,14 @@ Pour main-lemmatized.py :
 
 python main-lemmatized.py data/crawled_urls.json
 
-Dépendances
+### Dépendances
 
 Python 3.x
 NLTK
 Spacy
 Spacy French Model (fr_core_news_sm)
 
-Installation des Dépendances
+### Installation des Dépendances
 
 pip install nltk spacy
 python -m spacy download fr_core_news_sm
