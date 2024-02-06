@@ -1,0 +1,15 @@
+{
+    "Nombre total de document": 13550,
+    "Nombre de token par champs": {
+        "url": 193502,
+        "title": 146955,
+        "content": 6949831,
+        "h1": 103750
+    },
+    "Moyenne du nombre de token par champs": {
+        "url": 14.280590405904059,
+        "title": 10.845387453874539,
+        "content": 512.9026568265683,
+        "h1": 7.656826568265683
+    }
+}
