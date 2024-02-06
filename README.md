@@ -12,6 +12,7 @@ main-lemmatized.py : Version améliorée de main.py qui applique une lemmatisati
 # Dossiers
 
 data : Contient crawled_urls.json, un fichier JSON contenant les URLs et titres des documents web crawlés.
+
 result : Dossier destiné à rassembler tous les résultats des manipulations effectuées par les scripts, y compris les index créés.
 
 # Fonctionnalités
