@@ -7,6 +7,7 @@ Ce dépôt contient deux scripts Python principaux pour la construction d'index 
 # Scripts
 
 main.py : Script d'indexation qui tokenise les titres des documents et crée un index non positionnel.
+
 main-lemmatized.py : Version améliorée de main.py qui applique une lemmatisation sur les titres avant de créer l'index.
 
 # Dossiers
@@ -31,6 +32,7 @@ Opérations réalisées :
 Ajoute une étape de lemmatisation aux opérations de main.py :
 
 Lemmatisation des tokens pour une indexation plus précise.
+
 Création et Sauvegarde de l'Index Lemmatisé dans le dossier result.
 
 # Utilisation
@@ -48,11 +50,15 @@ python main-lemmatized.py data/crawled_urls.json
 ### Dépendances
 
 Python 3.x
+
 NLTK
+
 Spacy
+
 Spacy French Model (fr_core_news_sm)
 
 ### Installation des Dépendances
 
 pip install nltk spacy
+
 python -m spacy download fr_core_news_sm
